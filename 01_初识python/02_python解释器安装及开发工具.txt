@@ -1,0 +1,7 @@
+1、python解释器官网下载：https://www.python.org/
+
+2、开发工具及环境
+	a. Sumlime / Notepad++
+	b. vscode
+	c. pycharm
+	d. jupyter notebook(网页应用，在线开发环境)

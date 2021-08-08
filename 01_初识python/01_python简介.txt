@@ -1,0 +1,72 @@
+1. 什么是编程, 什么是编程语言?
+编程: 用代码编写程序
+编程语言: 用哪种语法规则来编写程序
+
+2. 编程语言分类
+    由低到高可以分为低级语言、汇编语言和高级语言。下面以高级语言来展开：
+A. 按⽣态分类
+    C（1970）：操作系统、嵌⼊式、驱动开发
+    C++：图形图像、科研、通信、桌⾯软件、游戏、游戏服务器
+    C#：Windows桌⾯软件、.NET Web开发
+    Java（1994）： Java SE：跨平台的桌⾯应⽤，Android；Java EE：企业级应⽤，web开发、服务器后
+    端；Java Android：⽤于安卓开发应⽤
+    GO（2009）：⾼性能⾼并发服务器应⽤、云计算
+    Erlang（1991）：⾼并发服务器应⽤，多⽤于游戏
+    Python（1989）：⼈⼯智能、数据分析、Web开发、爬⾍、游戏开发、科学计算、⾃动化开发
+    Php(1995): web开发
+    Ruby(1995)：web开发，⽤的少了
+    Perl(1987)：运维、⽂本处理，⽤的较少
+    Javascript(1995)：前端开发，在node中可以做后端
+    HTML/CSS(1995)：标记语⾔，主要是给前端⼯程师构建web⻚⾯使⽤
+B. 按编译原理不同
+    a. 编译型:  C, go
+        一次性把源代码进行翻译
+        特点: 执行效率很高, 平台依赖性一般比较高,因为直接跟操作系统的各种接⼝打交道，windows,linux，
+    mac都不⼀样。
+    b. 解释型   javascript, python, ruby
+        逐行的对源代码进行翻译和运行
+        特点: 执行效率相对较低. 平台的依赖性不高，⼀份代码，到处各平台使⽤
+
+3. 什么是python?  优缺点?
+    python是一个叫龟叔的荷兰老头写的(89年)
+⽬前Python主要应⽤领域：
+    1. WEB开发——最⽕的Python web框架Django, ⽀持异步⾼并发的Tornado框架，短⼩精悍的
+    flask,bottle, Django官⽅的标语把Django定义为the framework for perfectionist with
+    deadlines(⼤意是⼀个为完全主义者开发的⾼效率web框架)
+    2. ⽹络编程——⽀持⾼并发的Twisted⽹络框架， py3引⼊的asyncio使异步编程变的⾮常简单
+    3. 爬⾍——爬⾍领域，Python⼏乎是霸主地位，Scrapy\Request\BeautifuSoap\urllib等，想爬啥就
+    爬啥
+    4. 云计算——⽬前最⽕最知名的云计算框架就是OpenStack,Python现在的⽕，很⼤⼀部分就是因为
+    云计算
+    5. ⼈⼯智能、数据分析—— Python 是⽬前公认的⼈⼯智能和数据分析领域的必备语⾔
+    6. ⾃动化运维——问问中国的每个运维⼈员，运维⼈员必须会的语⾔是什么？10个⼈相信会给你⼀个
+    相同的答案，它的名字叫Python
+    7. ⾦融分析——我个⼈之前在⾦融⾏业，10年的时候，我们公司写的好多分析程序、⾼频交易软件就
+    是⽤的Python,到⽬前,Python是⾦融分析、量化交易领域⾥⽤的最多的语⾔
+    8. 科学运算—— 97年开始，NASA就在⼤量使⽤Python在进⾏各种复杂的科学运算，随着NumPy,
+    SciPy, Matplotlib, Enthought librarys等众多程序库的开发，使的Python越来越适合于做科学计
+    算、绘制⾼质量的2D和3D图像。和科学计算领域最流⾏的商业软件Matlab相⽐，Python是⼀⻔通
+    ⽤的程序设计语⾔，⽐Matlab所采⽤的脚本语⾔的应⽤范围更⼴泛
+    9. 游戏开发——在⽹络游戏开发中Python也有很多应⽤。相⽐Lua or C++,Python ⽐ Lua 有更⾼阶的
+    抽象能⼒，可以⽤更少的代码描述游戏业务逻辑，与 Lua 相⽐，Python 更适合作为⼀种 Host 语
+    ⾔，即程序的⼊⼝点是在 Python 那⼀端会⽐较好，然后⽤ C/C++ 在⾮常必要的时候写⼀些扩展。
+    Python ⾮常适合编写 1 万⾏以上的项⽬，⽽且能够很好地把⽹游项⽬的规模控制在 10 万⾏代码以
+    内。另外据我所知，知名的游戏 < ⽂明 >、 就是⽤Python写的
+
+Python在⼀些公司的应⽤：
+    ⾕歌：Google App Engine 、code.google.com 、Google earth 、⾕歌爬⾍、Google⼴告等项⽬
+    都在⼤量使⽤Python开发
+    CIA: 美国中情局⽹站就是⽤Python开发的
+    NASA: 美国航天局(NASA)⼤量使⽤Python进⾏数据分析和运算
+    YouTube:世界上最⼤的视频⽹站YouTube就是⽤Python开发的
+    Dropbox:美国最⼤的在线云存储⽹站，全部⽤Python实现，每天⽹站处理10亿个⽂件的上传和下
+    载
+    Instagram:美国最⼤的图⽚分享社交⽹站，每天超过3千万张照⽚被分享，全部⽤python开发
+    Facebook:⼤量的基础库均通过Python实现的
+    Redhat: 世界上最流⾏的Linux发⾏版本中的yum包管理⼯具就是⽤python开发的
+    ⾖瓣: 公司⼏乎所有的业务均是通过Python开发的
+    知乎: 国内最⼤的问答社区，通过Python开发(国外Quora)
+    春⾬医⽣：国内知名的在线医疗⽹站是⽤Python开发的
+    ⼤话⻄游、Eve，均是Python开发
+    除上⾯之外，还有搜狐、⾦⼭、腾讯、盛⼤、⽹易、百度、阿⾥、淘宝 、⼟⾖、新浪、果壳等公司
+    都在使⽤Python完成各种各样的任务
